@@ -4,8 +4,8 @@ import { cookies } from "next/headers";
 
 export const dynamic = "force-dynamic";
 
-export async function GET(requst: NextRequest) {
-    const requestUrl = new URL(requst.url);
+export async function GET(request: NextRequest) {
+    const requestUrl = new URL(request.url);
     const code = requestUrl.searchParams.get("code");
 
     if (code) {

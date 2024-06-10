@@ -44,6 +44,7 @@ export default async function Home() {
             alt="Blue bird icon"
             width={24}
             height={24}
+            className="mr-3"
           />
           Bluebird
         </h1>

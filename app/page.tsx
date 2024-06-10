@@ -40,7 +40,7 @@ export default async function Home() {
       <div className="flex justify-between py-4 px-6 border-gray-800 border-t-0">
         <h1 className="text-2xl font-semibold flex">
           <Image
-            src={"/bluebird.png"}
+            src={"/bird.png"}
             alt="Blue bird icon"
             width={24}
             height={24}
